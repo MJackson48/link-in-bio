@@ -10,71 +10,75 @@
 
   <style>
     * {
-      border: 1px red dotted;
-      }
+      border: 1px red dashed;
+    }
 
-      html{
-        min-height: 100px;
-      }
+    html {
+      min-height: 100%;
+    }
 
-      body{
-        min-height: 100px;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background: linear-gradient(180deg, #0b162a, #231e44, #491f56, #74155a, #9c004e, #ba0535, #c83803); /* made at https://learnui.design/tools/gradient-generator.html */
-        color: #fff;
-      }
+    body {
+      min-height: 100%;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background:  linear-gradient(180deg, #0b162a, #231e44, #491f56, #74155a, #9c004e, #ba0535, #c83803); /* made at https://learnui.design/tools/gradient-generator.html */
+      color: rgba(255, 255, 255, 1.0);
+    }
 
-      a{
-        color: #fff;
-      }
+    .avatar-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
 
-      .item{
-        background-color:rgba(149, 123, 173, 0.5);
-        margin-bottom: 20px;
-        display:flex;
-        align-items: center;
-      }
-
-      .avatar-image{
-        width: 128px;
-        height: 128px;
-        object-fit: cover;
-        border-radius: 128px;
-      }
-
-      .thumbnail{
+    .thumbnail {
       width: 48px;
       height: 48px;
       border-radius: 48px;
       object-fit: cover;
-      }
+    }
 
-      .main-container{
-        width: 640px;
-        margin:auto;
-      }
+    a {
+      color: rgba(255, 255, 255, 1.0);
+    }
 
-      .image-row{
-        margin-bottom:20px;
-        text-align: center;
-      }
+    .item {
+      background-color: rgba(149, 123, 173, 0.5);
+    }
 
-      .name-row{
-        margin-bottom: 30px;
-        text-align: center;
-      }
+    .main-container {
+      max-width: 640px;
+      margin: auto;
+    }
 
-      .social-icons-row{
-        margin-bottom: 20px;
-        display: flex;
-        justify-content: space-around;
-      }
+    .image-row {
+      margin-bottom: 20px;
+      text-align: center;
+    }
 
-      .line-text{
-        text-align: center;
-        flex-grow: 1;
-      }
+    .name-row {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .social-icons-row {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .item {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .link-text {
+      text-align: center;
+      flex-grow: 1;
+    }
+
   </style>
 
 
@@ -82,7 +86,7 @@
 
 <body>
  
-  <div class="main container">
+  <div class="main-container">
   <div class="image-row">
     <img src="/Images/Profile-pic/BearsEmblem.jpg" alt="Bear Profile Picture" class="avatar-image">
   </div>
@@ -104,21 +108,21 @@
   <div class="links-row">
     <div class="item">
       <img src="/Images/Blogs/WCG.png" class="thumbnail" alt="Gridiron Logo">
-      <a class="line-text" target="_blank" href="https://www.windycitygridiron.com/">
+      <a class="link-text" target="_blank" href="https://www.windycitygridiron.com/">
         Windy City Gridiron
       </a>
     </div>
 
     <div class="item">
       <img src="/Images/Blogs/dbb.png" class="thumbnail" alt="Da Bears">
-      <a class="line-text" target="_blank" href="https://www.dabearsblog.com/">
+      <a class="link-text" target="_blank" href="https://www.dabearsblog.com/">
         Da Bears Blog
       </a>
     </div>
 
     <div class="item">
       <img src="/Images/Blogs/bearswire.webp" class="thumbnail" alt="Bears Wire logo">
-      <a class="line-text" target="_blank" href="https://bearswire.usatoday.com/">
+      <a class="link-text" target="_blank" href="https://bearswire.usatoday.com/">
         Bears Wire
       </a>
     </div>
@@ -128,25 +132,25 @@
 
   <div class="item">
     <img src="/Images/Podcasts/chgo.jpg" class="thumbnail" alt="CHGO">
-    <a class="line-text" target="_blank" href="https://www.youtube.com/@CHGOSports/podcasts">
+    <a class="link-text" target="_blank" href="https://www.youtube.com/@CHGOSports/podcasts">
       CHGO Sports
 </a>
   </div>
 
   <div class="item">
     <img src="/Images/Podcasts/TWCB.jpg" class="thumbnail" alt="Da Breeze">
-    <a class="line-text" target="_blank" href="https://www.youtube.com/@TheWindyCityBreeze/podcasts">
+    <a class="link-text" target="_blank" href="https://www.youtube.com/@TheWindyCityBreeze/podcasts">
       The Windy City Breeze
     </a>
   </div>
 
   <div class="item">
     <img src="/Images/Podcasts/Locked_On.png" class="thumbnail" alt="Locked on">
-    <a class="line-text" target="_blank" href="https://www.youtube.com/@LockedOnBears/podcasts">
+    <a class="link-text" target="_blank" href="https://www.youtube.com/@LockedOnBears/podcasts">
       Locked on Bears
     </a>
   </div>  
-
+  </div>
 
 
 
