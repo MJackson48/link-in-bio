@@ -37,6 +37,7 @@
       height: 128px;
       object-fit: cover;
       border-radius: 128px;
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     }
 
     .thumbnail {
@@ -69,7 +70,7 @@
       margin-bottom: 30px;
       text-align: center;
       font-family: Fjalla One;
-      font-size: 24px;
+      font-size: 34px;
       font-weight: 900;
     }
 
@@ -77,6 +78,7 @@
       margin-bottom: 30px;
       display: flex;
       justify-content: space-around;
+      
     }
 
     .item {
@@ -93,6 +95,13 @@
       text-align: center;
       flex-grow: 1;
     }
+
+    .Section-text{
+      text-align: center;
+    }
+
+    
+
 
   </style>
 
@@ -119,7 +128,8 @@
  
   </div>
 
-  <h2>Blogs for Bears Fans</h2>
+  <h2 class="Section-text">Blogs for Bears Fans</h2>
+ 
   <div class="links-row">
     <div class="item">
       <img src="/Images/Blogs/WCG.png" class="thumbnail" alt="Gridiron Logo">
@@ -136,14 +146,14 @@
     </div>
 
     <div class="item">
-      <img src="/Images/Blogs/bearswire.webp" class="thumbnail" alt="Bears Wire logo">
+      <img src="/Images/Blogs/bearswire.png" class="thumbnail" alt="Bears Wire logo">
       <a class="link-text" target="_blank" href="https://bearswire.usatoday.com/">
         Bears Wire
       </a>
     </div>
 </div>
 
- <h2>Bears Podcasts</h2>   
+ <h2 class="Section-text">Bears Podcasts</h2>   
 
   <div class="item">
     <img src="/Images/Podcasts/chgo.jpg" class="thumbnail" alt="CHGO">
